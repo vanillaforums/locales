@@ -62,7 +62,6 @@ $Definition['Kick-start your community and increase user engagement.'] = 'Нас
 
 $Definition['Learn about custom routing.'] = 'Узнать о пользовательской маршрутизации.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Локализации позволяют поддерживать другие языки на вашем сайте. Включайте и выключайте локализации сайта здесь.';
-$Definition['Locales are in your %s folder.'] = 'Локализація позволяетъ поддерживать нѣсколько языковъ на форумѣ.<br /><br /> Какъ только вы добавите локализацію въ папку %s , она отобразиться въ спискѣ ниже и вы сможете ее активировать. <br /><br />';
 
 $Definition['Make sure you click View Page'] = 'Кликните <a href="%s">по ссылкѣ</a>, чтобы увидѣть какіе страницы категорій появятся послѣ сохраненія.';
 $Definition['Manage Routes'] = 'Управленіе перенаправленіями';

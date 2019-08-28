@@ -3,7 +3,6 @@
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>주의하세요!</strong> 역할을 삭제하면 사용자가 응용프로그램에 접속하지 못할 수 있습니다. ';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>주의하세요!</strong> 토의를 대체 카테고리로 이동시키면, 대체 카테고리가 삭제되는 카테고리 권한과 다른 경우 토의가 사라지거나 나타날 수 있습니다.';
 
-$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '확인 이메일을 사용하려면 기본 유형이 "확인되지 않음"인 역할이 필요합니다.';
 $Definition['About.DisableStatistics'] = '몇 가지 비즈니스상의 이유로 이 테이터 보고를 사용 해제해야 하는 경우 귀하의 설치 환경설정 파일에 다음의 라인을 추가해서 사용 해제할 수 있습니다: <code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = '바닐라의 범위 및 효율성을 정확하게 측정하는 것은 이 무료 오픈 소스 소프트웨어의 수명에 매우 중요합니다. 이 데이터 보고를 사용 해제하지 마시기 바랍니다.';
 $Definition['AboutCommentEmbedding'] = '바닐라는 블로그의 기본 코멘트 작성 시스템 대체품으로 사용할 수 있습니다. 실제로 웹상의 모든 페이지에 코멘트를 추가하는데 사용할 수 있습니다.';
@@ -16,6 +15,7 @@ $Definition['Although the invitation was created successfully, the email failed 
 $Definition['ApplicationHelp'] = '어플리케이션을 사용하여 포럼에 대량의 기능을 쉽게 추가할 수 있습니다.<br />
 사용하기 원하는 어플리케이션을 다음의 경로에 추가한 후 목록에서 활성화 하여 사용합니다: %s';
 $Definition['Are you sure you\'ve entered the correct database host name? Maybe you mistyped it? The database reported: <code>%s</code>'] = '정말로 올바른 데이터베이스 호스트명을 입력하셨습니까? 혹시 잘못 입력하셨습니까? 보고된 데이터베이스: <code>%s</code>';
+$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '확인 이메일을 사용하려면 기본 유형이 "확인되지 않음"인 역할이 필요합니다.';
 
 $Definition['By clicking the button below, you will be deleting the user account for %s forever.'] = '아래 버튼을 클릭해서 %s을(를) 위한 사용자 계정을 영원히 삭제합니다. ';
 
@@ -104,8 +104,8 @@ $Definition['Messages can appear anywhere in your application.'] = '메시지는
 
 <br />메세지 작성 후 목록에서 순서를 변경할 수 있습니다.';
 
-$Definition['No unconfirmed role available for email confirmation.'] = '사이트는 이메일 확인을 사용하기 위하여 기본 유형 "미확인" 역할이 필요합니다. 한 가지를 추가하여 이 설정을 사용하세요.';
 $Definition['Notify me when people comment on my addons.'] = '내 애드온에 사람들이 코멘트을 남길 때 알려 주세요.';
+$Definition['No unconfirmed role available for email confirmation.'] = '사이트는 이메일 확인을 사용하기 위하여 기본 유형 "미확인" 역할이 필요합니다. 한 가지를 추가하여 이 설정을 사용하세요.';
 
 $Definition['Please choose an authenticator to configure.'] = '설정하기 원하는 인증 방식을 선택하세요.';
 $Definition['PluginHelp'] = '플러그인을 사용하여 포럼에 여러가지 기능을 추가할 수 있습니다.<br />원하는 플러그인을 다음 경로에 추가한 후 아래 목록에서 버튼을 눌러 활성화 합니다. %s';

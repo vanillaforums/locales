@@ -243,6 +243,7 @@ $Definition['available'] = 'Pasiekiama';
 $Definition['Awaiting Moderation'] = 'Laukia moderacijos';
 $Definition['Awesome'] = 'Nuostabu';
 
+$Definition['Back'] = 'Atgal';
 $Definition['Back to Discussions'] = 'Grįžti prie diskusijų sąrašo';
 $Definition['Back to Profile'] = 'Atgal į profilį';
 $Definition['Badge'] = 'Suteikti medalį';
@@ -824,6 +825,7 @@ $Definition['Optional'] = 'Nebūtinas';
 $Definition['Optional Description'] = 'Nebūtinas aprašymas';
 $Definition['Options'] = 'Nustatymai';
 $Definition['or'] = 'arba';
+$Definition['Organize'] = 'Tvarkyti';
 $Definition['Organize discussion categories'] = 'Rūšiuoti diskusijų kategorijas';
 $Definition['Organize your Categories'] = 'Rūšiuoti savo kategorijas';
 $Definition['Original'] = 'Originalas';

@@ -472,7 +472,6 @@ $Definition['OpenID Settings'] = 'Configuración OpenID';
 $Definition['Optional'] = 'Opcional';
 $Definition['Optional Description'] = 'Descripció opcional';
 $Definition['Options'] = 'Opciones';
-$Definition['Ordered list'] = 'Llista ordenada';
 $Definition['Organizer'] = 'Organitzador';
 $Definition['Organize your Categories'] = 'Organiza tus Categorías';
 $Definition['Or you can...'] = 'O pots...';

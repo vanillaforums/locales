@@ -79,7 +79,6 @@ $Definition['Learn about custom routing.'] = 'Μάθετε σχετικά με �
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Μάθετε πως να αλλάξετε εντελώς την όψη του φόρουμ σας: ανεβάστε το λογότυπό σας, ορίστε την αρχική σας σελίδα, επιλέξτε ένα θέμα και τροποποιήστε τον.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Μάθετε πώς να χρησιμοποιείτε τις βασικές λειτουργίες του φόρουμ σας.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Οι τοποθεσίες σας επιτρέπουν να υποστηρίζετε άλλες γλώσσες στην ιστοσελίδα σας.';
-$Definition['Locales are in your %s folder.'] = 'Οι μεταφράσεις σας επιτρέπουν να υποστηρίζετε άλλες γλώσσες στο χώρο σας. Όταν μία μετάφραση προστεθεί στο φάκελο %s, μπορείτε να την ενεργοποιήσετε ή να την απενεργοποιήσετε εδώ';
 $Definition['LogoDescription'] = 'Το λογότυπο εμφανίζεται στο επάνω μέρος του χώρου σας. Κάποαι θέματα μπορεί να μην εμφανίσουν αυτό το λογότυπο.';
 
 $Definition['Make sure you click View Page'] = 'Βεβαιωθείτε ότι κάνατε κλικ στο <a href="%s">Εμφάνιση Σελίδας</a> για να δείτε πως θα φαίνεται η σελίδα των κατηγοριών μετά την αποθήκευση.';

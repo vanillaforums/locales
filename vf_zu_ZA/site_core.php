@@ -874,7 +874,6 @@ $Definition['Optional'] = 'Ngokuzithandela';
 $Definition['Optional Description'] = 'Incazelo Yokuzithandela';
 $Definition['Options'] = 'Okukhethwayo';
 $Definition['or'] = 'noma';
-$Definition['Ordered list'] = 'Uhlu olu-odiwe';
 $Definition['Organize discussion categories'] = 'Hlela izigaba zengxoxo';
 $Definition['Organizer'] = 'Umhleli';
 $Definition['Organize your Categories'] = 'Hlela Izigaba zakho';

@@ -41,7 +41,6 @@ $Definition['Invitations can be sent from users\' profile pages.'] = 'Коли �
 $Definition['It is a good idea to keep the maximum number of characters allowed in a comment down to a reasonable size.'] = 'Непогана ідея обмежити максимальну кількість символів, дозволене в коментарі, до розумного розміру.';
 
 $Definition['Locales allow you to support other languages on your site.'] = 'Locales allow you to support other languages on your site. Enable and disable locales you want to make available here.';
-$Definition['Locales are in your %s folder.'] = 'Переклади дозволяють вам підтримувати різні мови на вашому сайті. Додайте переклади в папку %s, і вони зможуть бути включені або відключені тут.';
 $Definition['LogoDescription'] = 'The banner logo appears at the top of your site. Some themes may not display this logo.';
 
 $Definition['Make sure you click View Page'] = 'Make sure you click <a href="%s">View Page</a> to see what your categories page looks like after saving.';

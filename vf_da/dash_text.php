@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = 'Lær om tilpassede ruter.';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Lær hvordan du ændrer din sides udseende, uploader et logo, beskriver siden, vælger et tema og tilpasser det.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Lær hvordan du grundlæggende bruger dit forum.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Sprogpakker tillader dig at bruge andre sprog på din side. Aktiver og deaktiver sprogpakker som du gerne vil gøre tilgængelige her.';
-$Definition['Locales are in your %s folder.'] = 'Sprogpakker giver dig mulighed for at bruge andre sprog i dit forum. Når en sprogpakke er blevet tilføjet til mappen %s, kan du aktivere den her.';
 $Definition['LogoDescription'] = 'Banner logoet vises øverst på siden. Nogle temaer viser ikke logoet.';
 
 $Definition['Make sure you click View Page'] = 'Klik <a href="%s">Vis side</a> for at se hvordan dine kategorier ser ud efter at du har gemt.';

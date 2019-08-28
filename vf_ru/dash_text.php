@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = 'Узнать о пользоват
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Узнайте, как полностью изменить внешний вид вашего форума: загрузка логотипа, настройка домашней страницы, выбор темы оформления и её настройка.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Узнайте, как использовать базовый функционал вашего форума.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Локализации позволяют поддерживать другие языки на вашем сайте. Включайте и выключайте локализации сайта здесь.';
-$Definition['Locales are in your %s folder.'] = 'Путь для размещения пакета локализации: %s <br />Установленные языки доступны здесь.';
 $Definition['LogoDescription'] = 'Логотип баннера выводится вверху страниц сайта. Некоторые темы могут не показывать логотип.';
 
 $Definition['Make sure you click View Page'] = 'Кликните <a href="%s">по ссылке</a>, чтобы посмотреть как страницы разделов будут выглядеть после сохранения.';

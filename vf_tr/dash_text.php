@@ -3,7 +3,6 @@
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>Dikkat Et!</strong> Kullanıcıların görevlerini siliyorsun, onlar giriş yapamayacaklar';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>Dikkatli Ol!!</strong>Tartışmaları yedek kategoriye taşırken tartışmalar kaybolabilir (veya görünebilir ) eğer yedek kategoride farklı izinlere sahipse kategori silinebilir.';
 
-$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = 'E-posta onayını kullanmak için varsayılan olarak "onaylanmadı" tipinde bir rol gereklidir.';
 $Definition['About.DisableStatistics'] = 'Bu veri raporlamasını bazı nedenlerden dolayı devre dışı bırakmanız gerekiyorsa, bunu kurulumunuzun yapılandırma dosyasına aşağıdaki satırı ekleyerek yapabilirsiniz: <code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = 'Vanilya\'nın erişimini ve etkinliğini doğru bir şekilde ölçmemiz bu ücretsiz, açık kaynaklı yazılımın yaşamı için hayati derecede önemlidir. Lütfen bu verilerin raporlanmasını devre dışı bırakmamanızı rica ederiz.';
 $Definition['AboutCommentEmbedding'] = 'Vanilya, blogunuzun yerel yorumlama sisteminin yerine geçme yerine kullanılabilir. Aslında, web\'deki herhangi bir sayfaya yorum eklemek için kullanılabilir.';
@@ -15,6 +14,7 @@ $Definition['All categories listed with a selection of 5 recent discussions unde
 $Definition['Although the invitation was created successfully, the email failed to send. The server reported the following error: %s'] = 'Davetiye başarıyla oluşturulmuş olmasına rağmen, e-posta gönderilemedi. Sunucu aşağıdaki hatayı bildirdi: %s';
 $Definition['ApplicationHelp'] = 'Uygulamalar sitenize geniş bir işlevsellik grubu eklemenize izin verir. <br />Bir uygulama %s klasörünüze eklendikten sonra, buradan etkinleştirebilir veya devre dışı bırakabilirsiniz.';
 $Definition['Are you sure you\'ve entered the correct database host name? Maybe you mistyped it? The database reported: <code>%s</code>'] = 'Doğru veritabanı adını girdiğinizden emin misiniz? Belki, yanlış girmiş olabilirsiniz. Veritabanı raporu: <code>%s</code> ';
+$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = 'E-posta onayını kullanmak için varsayılan olarak "onaylanmadı" tipinde bir rol gereklidir.';
 
 $Definition['By clicking the button below, you will be deleting the user account for %s forever.'] = 'Aşağıdaki butona basarak %s hesabını daimi olarak silmiş olacaksınız.';
 
@@ -80,7 +80,7 @@ $Definition['Learn about custom routing.'] = 'Özel yönlendirme hakkında bilgi
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Forumunuzun görünüşünü ve hissini nasıl değiştireceğinizi öğrenin: logonuzu yükleyin, ana sayfanızı ayarlayın, bir tema seçin ve özelleştirin.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Forumunuzun temel işlevlerini nasıl kullanacağınızı öğrenin.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Yerel ayarlar, sitenizdeki diğer dilleri desteklemenizi sağlar. Burada kullanılabilir yapmak istediğiniz yerel ayarları etkinleştirin ve devre dışı bırakın.';
-$Definition['LogoDescription'] = 'Banner logosu sitenizin en üstünde görünür. Bazı temalar bu logoyu göstermeyebilir.';
+$Definition['LogoDescription'] = 'Tanıtım logosu sitenizin en üstünde görünür. Bazı temalar bu logoyu göstermeyebilir.';
 
 $Definition['Make sure you click View Page'] = 'Kategoriler sayfanızın kaydettikten sonra nasıl göründüğünü görmek için <a href="%s">Sayfayı Görüntüle</a> seçeneğini tıkladığınızdan emin olun.';
 $Definition['Manage Routes'] = 'Yönlendirmeleri Yönet';
@@ -88,8 +88,8 @@ $Definition['Marking things as NOT spam will put them back in your forum.'] = '�
 $Definition['Marking things as not spam will put them back in your forum.'] = 'İşleri spam olmayan olarak işaretlemek onları forumunuza geri koyacaktır.';
 $Definition['Messages can appear anywhere in your application.'] = 'Mesajlar, uygulamanızın herhangi bir yerinde görünebilir ve kullanıcılarınızı haber ve etkinliklerle ilgili bilgilendirmek için kullanılabilir. İletilerinizi yukarı veya aşağı sürükleyerek yeniden düzenlemek için bu sayfayı kullanın.';
 
-$Definition['No unconfirmed role available for email confirmation.'] = 'Sitenin, e-posta onayını kullanmak için varsayılan olarak "onaylanmamış" bir role ihtiyacı var. Lütfen bu ayarı etkinleştirmek için bir tane ekleyin.';
 $Definition['Notify me when people comment on my addons.'] = 'Kullanıcılar eklentilerime yorum yaptığında beni haberdar et.';
+$Definition['No unconfirmed role available for email confirmation.'] = 'Sitenin, e-posta onayını kullanmak için varsayılan olarak "onaylanmamış" bir role ihtiyacı var. Lütfen bu ayarı etkinleştirmek için bir tane ekleyin.';
 
 $Definition['Please choose an authenticator to configure.'] = 'Lütfen yapılandırmak için bir onaylayıcı seçin.';
 $Definition['PluginHelp'] = 'Eklentiler sitenize işlevsellik eklemenizi sağlar. %s Klasörünüze  <br /> bir eklenti eklendikten sonra, buradan etkinleştirebilir veya devre dışı bırakabilirsiniz.';
@@ -114,7 +114,7 @@ $Definition['Security.Hsts.SubmitWarning'] = 'Uyarı: HSTS önyüklemesini en iy
 $Definition['Select the import source'] = 'İçe aktarma kaynağını seçin';
 $Definition['Serialized column "%s" failed to be unserialized.'] = 'Serileştirilmiş sütun "%s" serileştirilemedi.';
 $Definition['Show all possible pocket locations.'] = 'Tüm olası cep konumlarını göstermek için bu seçeneği açın. Bu seçeneği açmak, sadece yerleri yönetebilecek kullanıcılara yerleri gösterecektir.';
-$Definition['Spend a little time thinking about how you describe your site here.'] = 'Sitenizi burada nasıl tanımladığınızı düşünerek biraz zaman geçirin. Sitenize anlamlı bir başlık ve kısa bir açıklama vermek, arama motorlarında konumunuzu yardımcı olabilir.';
+$Definition['Spend a little time thinking about how you describe your site here.'] = 'Sitenizi burada nasıl tanımladığınızı düşünerek biraz zaman geçirin. Sitenize anlamlı bir başlık ve kısa bir açıklama vermek, arama motorlarında konumunuzu belirlemekte ve sağlamlaştımakta yardımcı olabilir.';
 $Definition['Spruce up your emails by adding a logo and customizing the colors.'] = 'Logo ekleyerek ve renkleri özelleştirerek e-postalarınızı yükseltin.';
 $Definition['Start Import'] = 'İçe Aktarımı Başlat';
 $Definition['Start the first discussion.'] = '<a href="{/post/discussion,url}">İlk tartışma başlığını şimdi açarak</a> topluluğunuza hareket kazandırın.';

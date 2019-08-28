@@ -81,7 +81,6 @@ $Definition['Learn about custom routing.'] = 'למד/י על ניתוב מותא
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'למד איך לשנות חלוטין את המראה וההרגשה של הפורום: הוסף לוגו, קבע את הפורום כדף הבית, בחר ערכת נושא ותעצב את הפורום לפי טעמך האישי.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'הדרכה על האפשרויות הבסיסיות של הפורום';
 $Definition['Locales allow you to support other languages on your site.'] = 'איזורים מאפשרים לך לתמוך בשפות אחרות באתר שלך. אפשר ובטל איזורים שאתרצה להפוך לזמינים כאן.';
-$Definition['Locales are in your %s folder.'] = 'איזורים מאפשרים לך לתמוך בשפות אחרות באתר שלך. ברגע שאיזור הוסף לתקיית ה-%s שלך, באפשרותך לאפשר או לבטל אותו כאן.';
 $Definition['LogoDescription'] = 'לוגו הבאנר מופיע בראש העמוד שלך. חלק מערכות הנושא עלולות שלא להציג את הלוגו הזה.';
 
 $Definition['Make sure you click View Page'] = 'וודאו לחיצה ב<a href="%s">צפה בדף</a> על מנת לראות כיצד דף הקטגוריות שלך נראה לאחר שמירה.';

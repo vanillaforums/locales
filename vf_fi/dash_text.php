@@ -3,7 +3,6 @@
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>Huom!</strong> Roolin poistaminen voi aiheuttaa sen, ettei tietyill&auml; k&auml;ytt&auml;jill&auml; ole en&auml;&auml; p&auml;&auml:;sy&auml; palstallesi.';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>Huom!</strong> Jos keskusteluja siirretään korvaavaan kategoriaan, keskusteluja saattaa hävitä (tai ilmestyä), jos korvaavassa kategoriassa on erilaiset oikeudet kuin poistettavassa kategoriassa.';
 
-$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = 'Rastin oletustyypin kanssa "vahvistamaton" tarvitaan sähköpostin vahvistuksen käyttämiseen.';
 $Definition['About.DisableStatistics'] = 'Jos joudut poistamaan raportoinnin k&auml;yt&ouml;st&auml; esimerkiksi business-syist&auml;, tee se lis&auml;&auml;m&auml;ll&auml; oheinen rivi Vanilla-asennuksesi konfiguraatiotiedostoon: <code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = 'Jotta Vanilla voisi pysyä ilmaisena Open Source-alustana, on ensiarvoisen t&auml;rke&auml;&auml; , ett&auml; voimme mitata sen levikki&auml; ja suorituskyky&auml;. Pyydämme, ettet poista k&auml;yt&ouml;st&auml; näiden tietojen raportointia.';
 $Definition['AboutCommentEmbedding'] = 'Vanillan avulla voit kätevästi korvata blogisi kommentointijärjestelmän. Itse asiassa kommentoinnin voi Vanillan avulla lisätä mille tahansa verkkosivulle.';
@@ -15,6 +14,7 @@ $Definition['All categories listed with a selection of 5 recent discussions unde
 $Definition['Although the invitation was created successfully, the email failed to send. The server reported the following error: %s'] = 'Vaikka kutsun luominen onnistui, s&auml;hk&ouml;postia ei voitu l&auml;hett&auml;&auml;.  Serveri palautti oheisen virheen: %s';
 $Definition['ApplicationHelp'] = 'Applications allow you to add large groups of functionality to your site.<br />Once an application has been added to your %s folder, you can enable or disable it here.';
 $Definition['Are you sure you\'ve entered the correct database host name? Maybe you mistyped it? The database reported: <code>%s</code>'] = 'Oletko varma, ett&auml; annoit oikean tietokannan is&auml;nn&auml;n nimen? Tarkistathan oikeikirjoituksen jatkaaksesi. Tietokannan vastaus oli: <code>%s</code>';
+$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = 'Rastin oletustyypin kanssa "vahvistamaton" tarvitaan sähköpostin vahvistuksen käyttämiseen.';
 
 $Definition['By clicking the button below, you will be deleting the user account for %s forever.'] = 'Klikkaamalla oheista painiketta poistat j&auml;senen %s k&auml;ytt&auml;j&auml;tilin lopullisesti.';
 
@@ -43,15 +43,12 @@ $Definition['Embed your community forum into your website to increase engagement
 $Definition['Enter a descriptive name.'] = 'Enter a descriptive name for the pocket. This name will not show up anywhere except when managing your pockets here so it is only used to help you remember the pocket.';
 $Definition['Enter a short name for the site.'] = 'Anna sivustollesi lyhyt nimi. T&auml;t&auml; k&auml;ytet&auml;&auml;n kirjautumis -painikkeissa.';
 $Definition['Enter the address of your Wordpress Blog and we\'ll take it from there.'] = 'Anna Wordpress blogisi osoite niin me jatkamme tästä.';
-$Definition['Enter the connection settings for your sphinx server below.'] = 'Enter the connection settings for your sphinx server below.';
 $Definition['Every edit or deletion is recorded here. Use &lsquo;Restore&rsquo; to undo any change.'] = 'Jokainen muokkaus ja poisto tallennetaan t&auml;nne. K&auml;yt&auml; toimintoa &lsquo;Peruuta&rsquo; kumotaksesi muutokset.';
 $Definition['Everyone who signs up gets a profile page.'] = 'Kaikki yhteisöösi rekisteröityvät saavat julkisen profiilisivun, jossa he voivat lisätä kuvan itsestään, hallita profiilinsa asetuksia, ja seurata siistejä juttuja yhteisössä. Sinun tulisi <a href="{/profile,url}">kustomoida profiilisi nyt</a>.';
 $Definition['Every user in your site is assigned to at least one role. Roles are used to determine what the users are allowed to do.'] = 'Jokaiselle sivustosi käyttäjälle annetaan ainakin yksi rooli. Roolien avulla määritellään, mitä käyttäjillä on lupa tehdä.';
 
 $Definition['Facebook Connect allows users to sign in using their Facebook account.'] = 'Facebook Connectin avulla käyttäjät voivat kirjautua Facebook-tiliään käyttämällä. <b>Sinun täytyy rekisteröidä sovelluksesi Facebookissa, jotta tämä liitännäinen toimisi.</b>';
 $Definition['Failed to connect to the database with the username and password you entered. Did you mistype them? The database reported: <code>%s</code>'] = 'Yhdist&auml;minen tietokantaan ep&auml;onnistui antamallasi k&auml;ytt&auml;j&auml;tunnuksella ja salasanalla. Tarkista tiedot ainakin kirjoitusvirheiden osalta. Tietokannan vastaus:  <code>%s</code>';
-$Definition['Force the dashboard to only be accessible through this url <em>(not recommended)</em>'] = 'Force the dashboard to only be accessible through this url <em>(not recommended)</em>';
-$Definition['For SEO purposes, search engine crawlers are excluded from being forced to view the forum in the remote url.'] = 'For SEO purposes, search engine crawlers are excluded from being forced to view the forum in the remote url.';
 
 $Definition['Garden.Import.Complete.Description'] = 'Tuonti onnistui.
    Klikkaa <b>Finished</b>, kun olet valmis.';
@@ -74,8 +71,6 @@ $Definition['Invitations can be sent from users\' profile pages.'] = 'Kun käyt�
 $Definition['It appears as though the database you specified does not exist yet. Have you created it yet? Did you mistype the name? The database reported: <code>%s</code>'] = 'Vaikuttaisi siltä, ettei määrittämääsi tietokantaa ole vielä olemassa. Oletko vielä luonut sen? Kirjoititko nimen väärin? Tietokanta antoi seuraavan ilmoituksen: <code>%s</code>';
 $Definition['It is a good idea to keep the maximum number of characters allowed in a comment down to a reasonable size.'] = 'On suositeltavaa pit&auml;&auml; maksimimerkkim&auml;&auml;r&auml; viesteiss&auml; j&auml;rkeviss&auml; mitoissa.';
 
-$Definition['Kick-start your community and increase user engagement.'] = 'Kick-start your community and increase user engagement.';
-
 $Definition['Learn about custom routing.'] = 'Lue lisää mukautetusta reitityksestä.';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Opi muuttamaan foorumisi ulkonäköä ja käyttötuntumaa: lataa logosi, aseta kotisivusi, valitse teema ja muokkaa sitä.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Opi k&auml;ytt&auml;m&auml;&auml;n foorumisi perustoimintoja.';
@@ -88,8 +83,8 @@ $Definition['Marking things as NOT spam will put them back in your forum.'] = 'S
 $Definition['Marking things as not spam will put them back in your forum.'] = 'Sis&auml;ll&ouml;n merkitseminen ei roskaviestiksi tuo sen taas n&auml;kyviin foorumissa.';
 $Definition['Messages can appear anywhere in your application.'] = 'Voit n&auml;ytt&auml;&auml; yll&auml;pidon viestej&auml; palstallasi muun sis&auml;ll&ouml;n ulkopuolella. Viesteill&auml; voit tiedottaa k&auml;ytt&auml;jille esimerkiksi uusista tapahtumista tai muusta ajankohtaisesta. T&auml;ll&auml; sivulla voit j&auml;rjest&auml;&auml; viestit vet&auml;m&auml;ll&auml; ja pudottamalla ne haluamaasi j&auml;rjestykseen.';
 
-$Definition['No unconfirmed role available for email confirmation.'] = 'Sivusto tarvitsee roolilla oletustyypin "vahvistamaton" sähköpostivahvistuksen käyttämiseksi. Ota tämä asetus käyttöön valitsemalla yksi.';
 $Definition['Notify me when people comment on my addons.'] = 'L&auml;het&auml; minulle ilmoitus, kun l&auml;hett&auml;mi&auml;ni lis&auml;osia kommentoidaan.';
+$Definition['No unconfirmed role available for email confirmation.'] = 'Sivusto tarvitsee roolilla oletustyypin "vahvistamaton" sähköpostivahvistuksen käyttämiseksi. Ota tämä asetus käyttöön valitsemalla yksi.';
 
 $Definition['Please choose an authenticator to configure.'] = 'Valitse konfiguroitavaksi ainakin yksi autentikoija.';
 $Definition['PluginHelp'] = 'Lis&auml;osien avulla voit laajentaa sivustosi toiminnallisuuksia. <br />Kun lis&auml;osa on lis&auml;tty serverillesi kansioon %s, voit ottaa sen k&auml;ytt&ouml;&ouml;n tai poistaa k&auml;yt&ouml;st&auml; ohessa.';

@@ -79,7 +79,6 @@ $Definition['Learn about custom routing.'] = 'Mai multe informații despre rutar
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Aflaţi cum să schimbați complet aspectul forum-ului: încărcaţi-vă logo-ul, setaţi o pagină de start, alegeţi o temă şi personalizaţi-o';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Aflaţi cum să utilizaţi funcţionalitățile de bază ale forumului';
 $Definition['Locales allow you to support other languages on your site.'] = 'Localizările vă permit să sprijiniți și alte limbi pe site-ul dvs. Activați şi dezactivați localizările pe care doriţi să le faceţi disponibile aici';
-$Definition['Locales are in your %s folder.'] = 'Localizările vă permit să sprijiniți și alte limbi pe site-ul dvs. Odată ce o localizare a fost adăugată dosarului %s, o puteţi activa sau dezactiva de aici';
 $Definition['LogoDescription'] = 'Logo-ul banner apare în partea de sus a site-ului. Unele teme nu vorafişa acest logo';
 
 $Definition['Make sure you click View Page'] = 'Asiguraţi-vă că faceţi click pe <a href="%s">Vizualizare pagină</a> pentru a vedea cum va arăta pagina de categorii după salvare';

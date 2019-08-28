@@ -3,7 +3,6 @@
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>請 注 意！</strong> 刪除用戶組可能會導致會員無法訪問。';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>請注意！</strong> 將討論串移往另外一區時，如果新討論區和即將刪除的討論區權限設定不同，則可能導致難以預期的消失或出現情形。';
 
-$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '需要一個 "尚未確認" 的預設角色才能使用電子郵件確認功能。';
 $Definition['About.DisableStatistics'] = '如果您因為特定商務理由，而必須關閉資料報表功能，可以在您的安裝設定檔中加入以下幾行敘述：<code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = '由於精準測量資訊到達率和有效度，對於Vanilla這個免費開放原始碼軟體相當重要，所以我們請您不要關閉此項資料的報表功能。';
 $Definition['AboutCommentEmbedding'] = 'Vanilla可以用於直接取代您網站上的留言系統，甚至可以用於將留言功能加在任何網頁上。';
@@ -15,6 +14,7 @@ $Definition['All categories listed with a selection of 5 recent discussions unde
 $Definition['Although the invitation was created successfully, the email failed to send. The server reported the following error: %s'] = '雖然已成功建立邀請，但電子郵件無法送達；伺服器已回報下列錯誤訊息：%s';
 $Definition['ApplicationHelp'] = '您可以利用應用程式來為網站增加大量功能。<br />當您將應用程式新增到 %s 資料夾後，即可在此處啟用或關閉功能。';
 $Definition['Are you sure you\'ve entered the correct database host name? Maybe you mistyped it? The database reported: <code>%s</code>'] = '您確定已經輸入正確的資料庫主機名稱嗎？會不會拼錯了呢？資料庫回報的訊息是：<code>%s</code>';
+$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '需要一個 "尚未確認" 的預設角色才能使用電子郵件確認功能。';
 
 $Definition['By clicking the button below, you will be deleting the user account for %s forever.'] = '如果您點按以下的按鈕，將會永久刪除%s的帳號。';
 
@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = '了解更多自訂路由。';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = '學習如何徹底改變討論版的外觀設計：上傳您的專屬標誌、設定首頁名稱、選擇視覺主題、並且改變各種自訂選項。';
 $Definition['Learn how to use the basic functionality of your forum.'] = '學習使用討論版的各種基本功能。';
 $Definition['Locales allow you to support other languages on your site.'] = '多語系功能允許您的網站支援其他語言；請在這裡啟用或關閉您在網站上提供的語言。';
-$Definition['Locales are in your %s folder.'] = '多語系功能讓您的網站支援多國語言；當您在%s資料夾中加入某個語言之後，就可以在這裡將它開啟或關閉。';
 $Definition['LogoDescription'] = '橫幅標誌會出現在您網站的頂端，但有些視覺主題可能不會顯示這個標誌。';
 
 $Definition['Make sure you click View Page'] = '在存檔之後，請務必點按「<a href="%s">閱覽網頁</a>」看看分類網頁的樣子。';
@@ -89,8 +88,8 @@ $Definition['Marking things as NOT spam will put them back in your forum.'] = '�
 $Definition['Marking things as not spam will put them back in your forum.'] = '標示為「非垃圾訊息」的內容，會重新在討論版上出現。';
 $Definition['Messages can appear anywhere in your application.'] = '訊息可以在您應用程式中的任何地方出現，並且可以用於將新聞或活動內容告知用戶；請利用這個頁面，以上下拖放方式來重新整理訊息。';
 
-$Definition['No unconfirmed role available for email confirmation.'] = '網站需要一個 "尚未確認" 的預設角色才能使用電子郵件確認功能，請新增一個以啟用這個設定。';
 $Definition['Notify me when people comment on my addons.'] = '有人在附加元件中留言時請通知我。';
+$Definition['No unconfirmed role available for email confirmation.'] = '網站需要一個 "尚未確認" 的預設角色才能使用電子郵件確認功能，請新增一個以啟用這個設定。';
 
 $Definition['Please choose an authenticator to configure.'] = '請選擇需要設定的認證功能。';
 $Definition['PluginHelp'] = '插件能幫您的網站增加額外功能。<br />當您將插件加入%s資料夾後，即可在此處啟用或關閉功能。';
@@ -108,6 +107,8 @@ $Definition['Route Expression'] = '路徑表達式';
 $Definition['Routes are used to redirect users.'] = '路由的作用是依要求的網址將使用者重新導向。';
 
 $Definition['Search for users by name or enter the name of a role to see all users with that role.'] = '依名稱搜尋使用者，或輸入職務名稱以列出所有相關用戶名稱。';
+$Definition['Security.Hsts.HTTPSWarning'] = '警告：如果您確定所有子域都配置為具有有效證書的HTTPS，則僅啟用此功能。';
+$Definition['Security.Hsts.IncludeSubDomains'] = '啟用後，此規則也適用於您網站的所有子網域。';
 $Definition['Select the import source'] = '請選擇匯入來源';
 $Definition['Serialized column "%s" failed to be unserialized.'] = '序列欄位「%s」無法解除序列。';
 $Definition['Show all possible pocket locations.'] = '開啟這個選項來顯示所有可以放置pocket的位置。如果開啟這項功能，將只會向有權限管理pocket的用戶顯示位置。';

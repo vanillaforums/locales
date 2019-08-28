@@ -42,7 +42,6 @@ $Definition['It is a good idea to keep the maximum number of characters allowed 
 
 $Definition['Learn about custom routing.'] = 'Dowiedz się więcej o routingu niestandardowym.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Ustawienia regionalne umożliwiają obsługę innych języków w Twojej witrynie. Włącz i wyłącz lokalne ustawienia, które chcesz udostępnić tutaj.';
-$Definition['Locales are in your %s folder.'] = 'Lokalizacje pozwalają dodać inne języki do twojej strony. Jeśli dodałeś lokalizacje do %s folderu, tu możesz je włączyć lub wyłączyć.';
 $Definition['LogoDescription'] = 'The banner logo appears at the top of your site. Some themes may not display this logo.';
 
 $Definition['Make sure you click View Page'] = 'Make sure you click <a href="%s">View Page</a> to see what your categories page looks like after saving.';

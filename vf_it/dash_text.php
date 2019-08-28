@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = 'Ulteriori informazioni di avviamen
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Scopri come modificare completamente il look del tuo forum: carica il tuo logo, imposta la tua home page, scegli un tema e personalizzalo.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Scopri come utilizzare le funzionalità di base del tuo forum.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Le versioni locali consentono di supportare altre lingue sul tuo sito. Attiva e disattiva le versioni locali che desideri rendere disponibile qui.';
-$Definition['Locales are in your %s folder.'] = 'Le versioni locali consentono di supportare altre lingue sul tuo sito. Una volta che una versione locale viene aggiunta alla tua cartella %s, puoi abilitarla o disabilitarla da qui.';
 $Definition['LogoDescription'] = 'Il logo banner appare nella parte superiore del tuo sito. Alcuni temi potrebbero non visualizzarlo.';
 
 $Definition['Make sure you click View Page'] = 'Assicuratevi di cliccare su <a href="%s">Visualizza pagina</a> per vedere come si presentano le dopo il salvataggio.';

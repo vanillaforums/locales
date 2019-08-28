@@ -78,7 +78,6 @@ $Definition['Learn about custom routing.'] = 'Pelajari lebih lanjut tentang kost
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Pelajari bagaimana mengubah sepenuhnya tampilan dan rasa forum anda: unggah logo anda, setel laman berandanya, memilih sebuah tema dan menyesuaikannya.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Pelajari bagaimana menggunakan fungsional dasar dari forum anda.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Bahasa mengizinkan Anda mendukung bahasa lainnya pada situs Anda. Aktif dan nonaktifkan bahasa yang Anda inginkan agar tersedia di sini.';
-$Definition['Locales are in your %s folder.'] = 'Dengan Lokal memungkinkan anda untuk mendukung bahasa lainnya pada situs anda. Segera setelah sebuah lokal ditambahkan pada folder %s anda, anda dapat mengaktifkannya atau menonaktifkannya di sini.';
 $Definition['LogoDescription'] = 'Logo banner tampil di atas situs anda. Beberapa tema mungkin tidak menampilkan logo ini.';
 
 $Definition['Make sure you click View Page'] = 'Pastikan anda klik <a href="%s">Lihat Halaman</a> untuk melihat seperti apa halaman kategori anda setelah disimpan.';

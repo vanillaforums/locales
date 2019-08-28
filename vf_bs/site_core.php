@@ -11,11 +11,16 @@ $Definition['%s comments html'] = '%s komentari';
 $Definition['%s Connect'] = '%s Poveži';
 $Definition['%s discussion html'] = '%s discussion';
 $Definition['%s discussions html'] = '%s discussions';
+$Definition['%s has reset your password at %s.'] = '%sje resetovao vasu lozinku na %s.';
+$Definition['%s is jailed.'] = '%s je zatvoren.';
 $Definition['%s message'] = '%s poruka';
 $Definition['%s New'] = '%s Novo';
 $Definition['%s new'] = '%s Novo';
 $Definition['%s New Plural'] = '%s Novo';
 $Definition['%s new plural'] = '%s Novo';
+$Definition['%s other'] = '%s ostalo';
+$Definition['%s people have earned this badge.'] = ' %s osoba je osvojila ovaj bedz. ';
+$Definition['%s person has earned this badge.'] = '%s osoba je osvojila ovaj bedz. ';
 $Definition['%s view html'] = '%s view';
 $Definition['%s views html'] = '%s views';
 

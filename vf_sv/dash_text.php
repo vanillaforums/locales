@@ -81,7 +81,6 @@ $Definition['Learn about custom routing.'] = 'Lär dig om anpassad dirigering.';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Lär dig att helt ändra ditt forums utseende och känsla: ladda upp din logo, välj din startsida, välj ett tema och anpassa det.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Lär dig att använda de grundläggande funktionerna i ditt forum.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Locales låter dig stödja andra språk på din sida. Aktivera eller inaktivera locales som du vill göra tillgängliga här.';
-$Definition['Locales are in your %s folder.'] = 'Språkvarianter låter dig stödja andra språk på din site. Så fort en språkvariant har lagts till i din %s mapp, kan du aktivera eller inaktivera den här.';
 $Definition['LogoDescription'] = 'Logon dyker upp överst på din hemsida. En del teman kanske inte visar den här logon.';
 
 $Definition['Make sure you click View Page'] = 'Se till att klicka på <a href="%s">Visa sida</a> för att se hur din kategorisida ser ut efter att du har sparat.';

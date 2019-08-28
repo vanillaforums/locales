@@ -3,7 +3,6 @@
 $Definition['<strong>Heads Up!</strong> Deleting a role can result in users not having access to the application.'] = '<strong>注意！</strong>ロールを削除すると、ユーザーは、アプリケーションにアクセスできなくなる可能性があります。';
 $Definition['<strong>Heads Up!</strong> Moving discussions into a replacement category can result in discussions vanishing (or appearing) if the replacement category has different permissions than the category being deleted.'] = '<strong>注意！</strong>ディスカッションを代替カテゴリに移動すると、代替カテゴリの権限が、削除されるカテゴリの権限と異なっている場合、ディスカッションが消える（または表示される）場合があります。';
 
-$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '電子メール確認を使用するには、デフォルトタイプ「未確認」のロールが必要です。';
 $Definition['About.DisableStatistics'] = 'なんらかのビジネス上の理由でこのデータ レポート機能を無効にする必要がある場合は、以下の行を、インストールした設定ファイルに追加すれば無効にできます。<code>$Configuration[\'Garden\'][\'Analytics\'][\'Enabled\'] = FALSE;</code>';
 $Definition['About.VanillaStatistics'] = 'Vanillaのリーチと効果を正確に測定できることは、このオープンソースの無料ソフトウェアが存続する上で非常に重要です。
 このデータのレポート機能を無効にしないようにしてください。';
@@ -16,6 +15,7 @@ $Definition['All categories listed with a selection of 5 recent discussions unde
 $Definition['Although the invitation was created successfully, the email failed to send. The server reported the following error: %s'] = '招待状の作成は成功しましたが、メールの送信に失敗しました。サーバのエラー報告は次の通りです: %s';
 $Definition['ApplicationHelp'] = '「アプリケーション」は、このサイトに規模が大きめの拡張機能を追加します。<br />%s フォルダに追加されたアプリケーションを、ここで有効化または無効化できます。';
 $Definition['Are you sure you\'ve entered the correct database host name? Maybe you mistyped it? The database reported: <code>%s</code>'] = 'データベース ホスト名は正しく入力されましたか？ 入力ミスの可能性はありませんか？データベースの報告は次の通りです: <code>%s</code>';
+$Definition['A role with default type "unconfirmed" is required to use email confirmation.'] = '電子メール確認を使用するには、デフォルトタイプ「未確認」のロールが必要です。';
 
 $Definition['By clicking the button below, you will be deleting the user account for %s forever.'] = '以下のボタンをクリックすれば、 %sのユーザー アカウントが永久に削除されます。';
 
@@ -88,8 +88,8 @@ $Definition['Marking things as NOT spam will put them back in your forum.'] = '�
 $Definition['Marking things as not spam will put them back in your forum.'] = 'スパムでないことを示すマークをつければ、フォーラムに戻ります。';
 $Definition['Messages can appear anywhere in your application.'] = 'メッセージはサイトのどこにでも表示でき、ユーザーにニュースやイベントを通知するために使われます。このページでメッセージをドラッグすると、順番を入れ替えることができます。';
 
-$Definition['No unconfirmed role available for email confirmation.'] = 'サイトでは、確認の電子メールを使用するために、デフォルトタイプ「未確認」のロールが必要です。この設定を有効にするには、1を追加してください。';
 $Definition['Notify me when people comment on my addons.'] = '自分のアドオンに誰かがコメントしたら通知します。';
+$Definition['No unconfirmed role available for email confirmation.'] = 'サイトでは、確認の電子メールを使用するために、デフォルトタイプ「未確認」のロールが必要です。この設定を有効にするには、1を追加してください。';
 
 $Definition['Please choose an authenticator to configure.'] = '設定したい認証方式を選んでください。';
 $Definition['PluginHelp'] = '「プラグイン」は、このサイトの機能を拡張します。<br />%s フォルダに追加されたプラグインを、ここで有効化または無効化できます。';

@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = 'Leer over aangepaste routes.';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Leer hoe je het uiterlijk van je forum compleet kan veranderen: upload je logo, maak je hoofdpagina, kies een thema en pas het aan.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Leer hoe je de basisfunctionaliteit van je forum kan gebruiken.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Locales maken het mogelijk om andere talen op je site te ondersteunen. Schakel locaties die je beschikbaar wilt maken hier in en uit.';
-$Definition['Locales are in your %s folder.'] = 'Locales maken het mogelijk om andere talen op je site te ondersteunen. Zodra een locale is toegevoegd aan de map %s , kan je het op deze pagina in- of uitschakelen.';
 $Definition['LogoDescription'] = 'Het bannerlogo wordt aan de bovenkant van je site getoond. Sommige thema\'s zullen dit logo niet tonen.';
 
 $Definition['Make sure you click View Page'] = 'Zorg ervoor dat je  <a href="%s">Bekijk pagina</a> aanklikt om te zien hoe je categoriepagina\'s eruitzien na het opslaan.';

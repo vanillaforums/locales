@@ -81,7 +81,6 @@ $Definition['Learn about custom routing.'] = 'Apprenez-en à propos du routage p
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Apprenez comment changer l\'apparence de votre forum du tout au tout : téléchargez votre logo, définissez votre page d\'accueil, choisissez un thème et personnalisez-le.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Apprenez à utiliser les fonctionnalités de base de votre forum.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Les locales vous permettent de gérer d\'autres langues sur votre site. Activez et désactivez les locales que vous voulez rendre disponibles ici.';
-$Definition['Locales are in your %s folder.'] = 'Les packs de langue vous permettent d\'utiliser plusieurs langues sur votre forum.<br />Une fois qu\'un pack de langue a été déposé dans le dossier %s, vous pouvez l\'activer ou le désactiver ici.';
 $Definition['LogoDescription'] = 'Le logo bannière apparaît en haut de votre site. Il est possible que certains thèmes n\'affichent pas ce logo.';
 
 $Definition['Make sure you click View Page'] = 'Cliquez sur <a href="%s">Voir la Page</a> pour voir à quoi ressemblera votre page catégories une fois que vous aurez sauvegardé.';

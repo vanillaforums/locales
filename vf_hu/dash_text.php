@@ -81,7 +81,6 @@ $Definition['Learn about custom routing.'] = 'Tudjon meg többet az egyedi útvo
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Ismerd meg, hogy tudod teljesen lecserélni a fórumod kinézetét: tölts fel logókat, állítsd be a honlapod, válassz egy témát és tedd egyedivé.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Ismerd meg, hogy használd az alapvető fórum-funkciókat.';
 $Definition['Locales allow you to support other languages on your site.'] = 'A területi beállítások lehetővé teszik, hogy a webhely további nyelveket is támogasson. Itt engedélyezheti és tilthatja le a kívánt területi beállításokat.';
-$Definition['Locales are in your %s folder.'] = 'Nyelvi csomagok segítségével tudsz az oldaladon más nyelveket támogatni. Amint egy csomag a %s mappához hozzá lett adva, itt fogod tudni engedélyezni vagy letiltani.';
 $Definition['LogoDescription'] = 'A banner logo az oldalad tetején fog megjelenni. Néhány téma esetleg nem fogja ezt a logot megjeleníteni.';
 
 $Definition['Make sure you click View Page'] = 'Kattints a <a href="%s">Oldal megtekintése</a> -re, hogy lásd hogyan fog a kategória oldalad kinézni a mentés után.';

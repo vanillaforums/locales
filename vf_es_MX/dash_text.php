@@ -80,7 +80,6 @@ $Definition['Learn about custom routing.'] = 'Más información sobre rutas pers
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = 'Aprende a cambiar completamente el aspecto de tu foro: cargando tu logotipo, arregla tu página de inicio, selecciona un tema y personaliza.';
 $Definition['Learn how to use the basic functionality of your forum.'] = 'Aprende a utilizar las funciones básicas de tu foro.';
 $Definition['Locales allow you to support other languages on your site.'] = 'Lenguajes Locales te permite utilizar varios lenguajes en tu sitio. Habilita y deshabilita los lenguajes que necesites.';
-$Definition['Locales are in your %s folder.'] = 'Lenguajes Locales te permite utilizar varios lenguajes en tus itio. Una vez que ha sido añadido un lenguaje en tu carpeta %s, puedes activarlo o desactivarlo aquí.';
 $Definition['LogoDescription'] = 'El logotipo aparece en la parte superior de su sitio. Algunos temas pueden no mostrar este logo.';
 
 $Definition['Make sure you click View Page'] = 'Asegúrate de hacer clic en <a href="%s">View Page</a> para ver cómo se ve después de guardar.';

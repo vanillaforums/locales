@@ -2,6 +2,7 @@
 
 $Definition['Abilites'] = 'Abilities';
 $Definition['Access your community forum by clicking the "Visit Site" link.'] = 'Access your community forum by clicking the "Visit Site" link at the top of this page, or by <a href={/,url}>clicking here</a>. The community forum is what all of your users &amp; customers will see when they visit <a href="{/,url,domain}">{/,url,domain}</a>.';
+$Definition['Add your site to trusted domains.'] = 'Make sure your site is added to %s when embedding is enabled.';
 
 $Definition['BanReason.1'] = 'Banned by a community manager.';
 $Definition['BanReason.2'] = 'Banned by IP address, email, or name.';
@@ -22,6 +23,7 @@ $Definition['Everyone who signs up gets a profile page.'] = 'Everyone who signs 
 
 $Definition['ForceWysiwyg.Notes1'] = 'Check the below option to tell the editor to reinterpret all old posts as Wysiwyg.';
 $Definition['ForceWysiwyg.Notes2'] = 'This setting will only take effect if Wysiwyg was chosen as the Post Format above. The purpose of this option is to normalize the editor format. If older posts edited with another format, such as markdown or BBCode, are loaded, this option will force Wysiwyg.';
+$Definition['Format as Paragraph'] = 'Format as a normal paragraph';
 
 $Definition['HeadlineFormat.AcceptAnswer'] = '{ActivityUserID,You} accepted {NotifyUserID,your} answer.';
 $Definition['HeadlineFormat.Answer'] = '{ActivityUserID,user} answered your question: <a href="{Url,html}">{Data.Name,text}</a>';
@@ -30,11 +32,22 @@ $Definition['Hide previous quotes'] = '&laquo; hide previous quotes';
 $Definition['Html'] = 'HTML';
 
 $Definition['I confirm that I have received consent to join this community.'] = 'Since I\'m under %d years old, I confirm that I have received consent to join this community.';
+$Definition['ImageUploadLimits.Height1'] = 'Max Image Height';
+$Definition['ImageUploadLimits.Height2'] = 'Images will be scaled down if they exceed this height.';
+$Definition['ImageUploadLimits.Notes1'] = 'Enable Image Upload Limit';
+$Definition['ImageUploadLimits.Notes2'] = 'Add limits to image upload dimensions in discussions and comments.';
+$Definition['ImageUploadLimits.Width1'] = 'Max Image Width';
+$Definition['ImageUploadLimits.Width2'] = 'Images will be scaled down if they exceed this width.';
+$Definition['Inline Level Formatting Menu'] = 'Text Format Menu';
+$Definition['Inline Menu Available'] = 'Text Format Menu Available';
 $Definition['InputFormatter.Notes1'] = 'Select the default format of the editor for posts in the community.';
 $Definition['InputFormatter.Notes2'] = 'The editor will auto-detect the format of old posts when editing them and load their original formatting rules. Aside from this exception, the selected post format below will take precedence.';
 $Definition['Invalid CSRF token.'] = 'Invalid CSRF token. Please try again.';
 
+$Definition['Jump past emoji list, to emoji categories.'] = 'Jump past emoji list, to emoji category buttons.';
+
 $Definition['Large images will be scaled down.'] = 'Large images will be scaled down to a max width of %spx and a max height of %spx.';
+$Definition['Line Level Formatting Menu'] = 'Paragraph Format Menu';
 $Definition['Locales allow you to support other languages on your site.'] = 'Locales allow you to support other languages on your site. Enable and disable locales you want to make available here.';
 
 $Definition['Make Leader'] = 'Leader';
@@ -43,6 +56,7 @@ $Definition['MobileInputFormatter.Notes2'] = 'If mobile devices should have the 
 
 $Definition['No unconfirmed role available for email confirmation.'] = 'The site needs a role with default type "unconfirmed" to use email confirmation. Please add one to enable this setting.';
 
+$Definition['Paragraph Code Block'] = 'Code Block';
 $Definition['Password Contains Username'] = 'Contains Username';
 $Definition['Password Good'] = 'Good';
 $Definition['Password Ok'] = 'Ok';
@@ -52,18 +66,18 @@ $Definition['Password Very Weak'] = 'Very Weak';
 $Definition['Password Weak'] = 'Weak';
 $Definition['Please join my group.'] = 'Please join my <a href="{Url,html}">group</a>.';
 
-$Definition['richEditor.description.embed'] = 'Some elements, such as rich link embeds, images, loading indicators, and error messages may get inserted into the editor. You may navigate to these using the arrow keys inside of the editor and delete them with the delete or backspace key.';
-$Definition['richEditor.description.inlineMenu'] = 'An inline formatting menu will show up when you select text. Hit tab to get into that menu.';
-$Definition['richEditor.description.paragraphMenu'] = 'To edit a paragraph\'s style, hit tab to get to the paragraph menu. From there you will be able to pick one style. Nothing defaults to paragraph.';
+$Definition['richEditor.description.embed'] = 'Some elements, such as embeds, images, loading indicators, and error messages may get inserted into the editor. You may navigate to these using arrow keys inside of the editor and delete them with the delete or backspace key.';
+$Definition['richEditor.description.inlineMenu'] = 'A text formatting menu will open when you select text. Hit tab to navigate to that menu.';
+$Definition['richEditor.description.paragraphMenu'] = 'To edit a paragraph\'s style, hit tab to navigate to the paragraph menu.';
 $Definition['richEditor.description.title'] = 'Rich Text Editor.';
-$Definition['richEditor.emoji.pagingInstructions'] = 'Use keyboard shortcuts "page up" and "page down" to cycle through available categories when menu is open.';
+$Definition['richEditor.emoji.pagingInstructions'] = 'Use keyboard shortcuts "page up" and "page down" to cycle through available categories when the emoji menu is open.';
 $Definition['richEditor.emojiPicker.description.pageUpDown'] = 'Use keyboard shortcuts "page up" and "page down" to cycle through available categories when menu is open.';
-$Definition['richEditor.externalEmbed.description'] = 'This is an embed external element. It can be deleted using the delete key or the backspace key. To view the full element, press the preview button below.';
+$Definition['richEditor.externalEmbed.description'] = 'This is an embed. It can be deleted using the delete key or the backspace key.';
 $Definition['richEditor.menu.blockquote'] = 'Blockquote';
 $Definition['richEditor.menu.code'] = 'Inline Code Block';
 $Definition['richEditor.menu.codeBlock'] = 'Code Block';
 $Definition['richEditor.menu.heading'] = 'Heading';
-$Definition['richEditor.menu.inline'] = 'Inline Style Menu';
+$Definition['richEditor.menu.inline'] = 'Text Style Menu';
 $Definition['richEditor.menu.link'] = 'Link';
 $Definition['richEditor.menu.paragraph'] = 'Paragraph Style Menu';
 $Definition['richEditor.menu.strike'] = 'Strike Through';
@@ -73,6 +87,10 @@ $Definition['Routes are used to redirect users.'] = 'Routes are used to redirect
 $Definition['RSVP'] = 'Respond';
 
 $Definition['Search by user or role.'] = 'Search for users by name or email, optionally using % as a wildcard. You can also search by user ID, the name of a role, or &ldquo;banned&rdquo;.';
+$Definition['Security.Hsts.HTTPSWarning'] = 'Warning: Only enable this feature if you are sure all your subdomains are configured for HTTPS with valid certificates.';
+$Definition['Security.Hsts.IncludeSubDomains'] = 'When enabled, this rule applies to all of your site\'s subdomains as well.';
+$Definition['Security.Hsts.MaxAgeRecommendation'] = 'We recommend starting with a max age of 1 week and then increasing it to 1 month then 1 year once you see your site works as expected.';
+$Definition['Security.Hsts.SubmitWarning'] = 'Warning: It\'s great to support HSTS preloading as a best practice. However, you must submit your site to hstspreload.org to ensure that it is successfully pre-loaded (i.e. to get the full protection for the intended configuration).';
 $Definition['Show previous quotes'] = '&raquo; show previous quotes';
 $Definition['Start the first discussion.'] = 'Get the ball rolling in your community by <a href="{/post/discussion,url}">starting the first discussion</a> now.';
 
@@ -97,5 +115,6 @@ $Definition['Validation Failed'] = 'Please review the errors below.';
 $Definition['We\'ve received a request to change your password.'] = 'We\'ve received a request to change your password at %s. If you didn\'t make this request, please ignore this email.';
 
 $Definition['You can place files in your /uploads folder.'] = 'If your file is too large to upload directly to this page you can place it in your /uploads folder. Make sure the filename begins with the word <b>export</b> and ends with one of <b>.txt, .gz</b>.';
+$Definition['You can specify a whitelist of trusted domains.'] = 'You can specify a whitelist of trusted domains (ex. yourdomain.com) that are safe for redirects and embedding.';
 $Definition['You can use HTML in your signature.'] = 'You can use <b><a href="http://htmlguide.drgrog.com/cheatsheet.php" target="_new">Simple HTML</a></b> in your signature.';
 $Definition['Your password reset token has expired.'] = 'Your password reset token has expired. Try using the reset request form again.';

@@ -81,7 +81,6 @@ $Definition['Learn about custom routing.'] = '了解自定义路由。';
 $Definition['Learn how to completely change your forum\'s look and feel: upload your logo, set your homepage, choose a theme and customize it.'] = '学习如何完全改变您的社区的外观和感觉：上传 Logo；设置首页及布局；选择一个主题并个性化主题。';
 $Definition['Learn how to use the basic functionality of your forum.'] = '学习如何使用论坛的基本功能。';
 $Definition['Locales allow you to support other languages on your site.'] = '语言选项可以让您的网站支持其他语言。在这里您可以启用或禁用选定的语言。';
-$Definition['Locales are in your %s folder.'] = '语言环境设置允许您的网站支持更多语言。当一种新语言被添加到 %s 文件夹中后，您就可以在这里选择启用或禁用它。';
 $Definition['LogoDescription'] = '站点 Logo 显示在站点的顶部，有些主题可能不会显示。';
 
 $Definition['Make sure you click View Page'] = '点击<a href="%s">这里</a>预览版块页面。';

@@ -853,7 +853,6 @@ $Definition['Optional'] = 'Pilihan';
 $Definition['Optional Description'] = 'Huraian Pilihan';
 $Definition['Options'] = 'Pilihan';
 $Definition['or'] = 'atau';
-$Definition['Ordered list'] = 'Senarai Pesanan';
 $Definition['Organize discussion categories'] = 'Anjurkan kategori perbincangan';
 $Definition['Organizer'] = 'Penganjur';
 $Definition['Organize your Categories'] = 'Anjurkan Kategori anda';

@@ -862,7 +862,6 @@ $Definition['Optional'] = 'اختیاری';
 $Definition['Optional Description'] = 'اختیاری تصریح';
 $Definition['Options'] = 'اختیارات';
 $Definition['or'] = 'یا';
-$Definition['Ordered list'] = 'ٓآرڈرڈ فہرست';
 $Definition['Organize discussion categories'] = 'بحث زمرہ جات کو منظم کریں';
 $Definition['Organizer'] = 'تنظیم کار';
 $Definition['Organize your Categories'] = 'اپنے زمرے کو منظم کریں';
