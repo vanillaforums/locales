@@ -9,8 +9,15 @@ $Definition["Add a knowledge base to get started."] = "Add a knowledge base to g
 $Definition["Add/Edit Knowledge Base"] = "Add/Edit Knowledge Base";
 $Definition["Admin Links"] = "Admin Links";
 $Definition["Are you sure you want to delete <0/> \"<1/>\" ?"] = "Are you sure you want to delete <0/> \"<1/>\" ?";
-$Definition["Are you sure you want to delete this knowledge base?"] = "Are you sure you want to delete this knowledge base?";
-$Definition["Are you sure you want to purge this knowledge base?"] = "Are you sure you want to purge this knowledge base?";
+$Definition['Are you sure you want to delete this knowledge base?'] = <<<MESSAGE
+Are you sure you want to delete this knowledge base?
+It can restored later from the Deleted Knowledge Bases page.
+MESSAGE;
+
+$Definition["Are you sure you want to purge this knowledge base?"] = <<<MESSAGE
+Are you sure you want to purge this knowledge base?
+All associated content will be irrecoverably lost.
+MESSAGE;
 $Definition["Are you sure you want to restore this knowledge base?"] = "Are you sure you want to restore this knowledge base?";
 $Definition["Article"] = "Article";
 $Definition["article"] = "article";
@@ -49,6 +56,7 @@ $Definition["Delete \"<0/>\""] = "Delete \"<0/>\"";
 $Definition["Delete Draft"] = "Delete Draft";
 $Definition["Delete an Article"] = "Delete an Article";
 $Definition["Deleted Articles"] = "Deleted Articles";
+$Definition["Deleted Knowledge Bases"] = "Deleted Knowledge Bases";
 $Definition["Draft Options"] = "Draft Options";
 $Definition["Draft saved <0/>"] = "Draft saved <0/>";
 
