@@ -139,6 +139,7 @@ $Definition["This will create an article that is a copy of this discussion. The 
 $Definition["This will remove the link to the article, but will not remove the article itself."] = "This will remove the link to the article, but will not remove the article itself.";
 $Definition["Top Left"] = "Top Left";
 $Definition["Type your message."] = "Type your message.";
+$Definition["Type your article."] = "Type your article.";
 
 $Definition["Unknown User"] = "Unknown User";
 
